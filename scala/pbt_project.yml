@@ -1,6 +1,6 @@
 name: ScalaExternal01
 description: ''
-version: 0.0.1
+version: 0.0.34
 author: abhisheks+e2etests@prophecy.io
 language: scala
 buildSystem: ''

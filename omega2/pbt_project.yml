@@ -1,0 +1,96 @@
+name: NewProjectWithExternalShare
+description: ''
+version: 0.0.1
+author: pankaj@prophecy.io
+language: python
+buildSystem: ''
+buildSystemDetails:
+  artefactID: newprojectwithexternalshare
+  parentArtefactID: pankajprophecyioteam
+  buildSystem: wheel
+  author: null
+  createdAt: '2024-09-03 08:57:33'
+pipelines:
+  pipelines/Pipeline02:
+    name: Pipeline02
+    description: ''
+    author: pankaj@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: python
+    createdAt: '2024-09-03 08:57:51'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: '3.10'
+  gemLibsVersion: 1.3.4.0
+  gems:
+    gems/RandomNameGem:
+      name: RandomNameGem
+      category: Transform
+      subCategory: ''
+      description: null
+      author: pankaj@prophecy.io
+      mode: batch
+      files:
+      - pankajprophecyioteam_newprojectwithexternalshare/gems/RandomNameGem.py
+      gemType: ComponentGem
+      dependencies: null
+      createdAt: '2024-09-03 08:58:14'
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2024-09-03 08:57:33'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2024-09-03T08:57:33.598037Z'
+  name: plibMaven
+  version: 8.0.31
+  id: '361382702'
+  createdAt: '2024-09-03T08:57:33.598037Z'
+  type: plibMaven
+- modifiedAt: '2024-09-03T08:57:33.598037Z'
+  name: plibPypi
+  version: 1.9.10
+  id: '54856130'
+  createdAt: '2024-09-03T08:57:33.598037Z'
+  type: plibPypi
+projectDependencies:
+  '33':
+    projectUID: 33
+    projectName: ProphecySparkBasicsPython
+    repositoryPath: gitUri=http://gitserver:3000/DTAcEZUO_team_5/iaRHA2Zs_project_33.git&subPath=
+    version: 0.2.26
+    isDefault: true
+    author: null
+    createdAt: '2024-09-03 08:56:08'
+  '34':
+    projectUID: 34
+    projectName: ProphecyWarehousePython
+    repositoryPath: gitUri=http://gitserver:3000/DTAcEZUO_team_5/iaRHA2Zs_project_34.git&subPath=
+    version: 0.0.8
+    isDefault: true
+    author: null
+    createdAt: '2024-09-03 08:56:08'
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
